@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  background-color: #fcfcfa;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  font-family: "Arial", sans-serif;
+  font-weight: 500;
+  align-items: center;
+  background-color: #e9e8e1;
+}
+
+.menu {
+  list-style: none;
+  margin: 0px 16px;
+
+  margin-left: 30vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.menu > li {
+  text-align: center;
+}
+
+.menu a {
+  display: block;
+  padding: 16px 1rem;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 2em;
+  color: #df5a3f;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #d6d6c4;
+  color: white;
+}
+
+.menu a:active {
+  color: transparent;
+}
+
+#header {
+  width: 58vw;
+  padding: 1vw 5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: top;
+}
+
+.home p {
+  font-family: "Arial", sans-serif;
+  position: relative;
+  text-align: justify;
+  padding-right: 20px;
+  font-size: 20px;
+  color: 4c443d;
+}
+
+#photo {
+  background-color: papayawhip;
+}
+
+.section {
+  width: 80vw;
+  padding: 10vh 10vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#i1 {
+  width: 35vw;
+}
+
+#i2 {
+  width: 55vw;
+  padding-bottom: 50;
+}
+
+h2 {
+  font-family: "Arsenal", serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 60pt;
+  text-align: left;
+  color: #df5a3f;
+  margin: 0 0 35px 0;
+}
+
+.gallery-item {
+  height: auto;
+}
+
+.gallery-item img {
+  max-width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 15px;
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.contacts {
+  text-align: center;
+  margin-top: 100px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 100px;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}

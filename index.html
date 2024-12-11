@@ -1,1 +1,103 @@
-Hi, it's Nutisho!
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>nutisho</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/css/lightgallery.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+</html>
+
+<body>
+    <div class="navbar">
+        <ul class="menu">
+            <li><a href="#home">Ебаут</a></li>
+            <li><a href="#works">Портфоліо</a></li>
+            <li><a href="#wheet">Пшеничка</a></li>
+            <li><a href="#contacts">Контакти</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="home">
+        <h2>Привіт! Це НУТИШО!</h2>
+        <div class="home"><img id="i1" src="images/me.jpeg">
+            <div>
+                <p>Я дизайнерка одягу з креативним підходом до створення унікальних та стильних образів. Моя мета – поєднувати сучасні тренди з індивідуальністю кожного клієнта, створюючи одяг, який розповідає історію.</p>
+                <p>Але інколи я пʼю пиво і знімаю це на відео – натхнення приходить звідусіль! 🍺🎥</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="works">
+        <h2>Портфоліо</h2>
+
+        <div class="wrap">
+            <div class="gallery" id="lightgallery-works">
+                <div class="gallery-item">
+                    <a href="images/p-1.jpg"><img src="images/p-1.jpg"></a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="images/p-2.jpg"><img src="images/p-2.jpg"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section" id="wheet">
+        <h2>Пшеничка</h2>
+
+        <div class="wrap">
+            <div class="gallery" id="lightgallery-wheet">
+
+                <div class="gallery-item">
+                    <a href="images/g-1.png"><img src="images/g-1.png"></a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="images/g-2.png"><img src="images/g-2.png">
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a href="images/g-3.png"><img src="images/g-3.png"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section" id="contacts">
+        <h2 id="cont">Контакти</h2>
+        <div class ="contacts">
+            <div><a href="https://www.instagram.com/nutisho/" target="_blank"><img src="images/instagram.svg" style="width: 200px; height: auto;"></a></div>
+            <div><a href="https://www.behance.net/nutisho" target="_blank""><img src="images/behance.svg" style="width: 200px; height: auto;"></a></div>
+        </div>
+    </div>
+         
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.4.0/dist/js/lightgallery.min.js"></script>
+
+    <script>
+        lightGallery(document.getElementById('lightgallery-works'), {
+            selector: 'a'
+        });
+    </script>
+
+    <script>
+        lightGallery(document.getElementById('lightgallery-wheet'), {
+            selector: 'a'
+        });
+    </script>
+
+</body></html>
